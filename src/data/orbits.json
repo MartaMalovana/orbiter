@@ -1,0 +1,437 @@
+[
+  {
+    "date": "",
+    "clients": [
+      {
+        "id": 1,
+        "photo": "avatar11.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 2,
+        "photo": "avatar12.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      }
+    ]
+  },
+  {
+    "date": "",
+    "clients": [
+      {
+        "id": 3,
+        "photo": "avatar21.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 4,
+        "photo": "avatar22.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 5,
+        "photo": "avatar23.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 6,
+        "photo": "avatar24.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 7,
+        "photo": "avatar25.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 8,
+        "photo": "avatar26.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 9,
+        "photo": "avatar27.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      }
+    ]
+  },
+  {
+    "date": "",
+    "clients": [
+      {
+        "id": 10,
+        "photo": "avatar31.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 11,
+        "photo": "avatar32.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      }
+    ]
+  },
+  {
+    "date": "",
+    "clients": [
+      {
+        "id": 12,
+        "photo": "avatar41.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 13,
+        "photo": "avatar42.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 14,
+        "photo": "avatar43.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      }
+    ]
+  },
+  {
+    "date": "",
+    "clients": [
+      {
+        "id": 15,
+        "photo": "avatar51.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 16,
+        "photo": "avatar52.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 17,
+        "photo": "avatar53.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 18,
+        "photo": "avatar54.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      }
+    ]
+  },
+  {
+    "date": "",
+    "clients": [
+      {
+        "id": 19,
+        "photo": "avatar61.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 20,
+        "photo": "avatar62.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 21,
+        "photo": "avatar63.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      }
+    ]
+  },
+  {
+    "date": "",
+    "clients": [
+      {
+        "id": 22,
+        "photo": "avatar71.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      }
+    ]
+  },
+  {
+    "date": "",
+    "clients": [
+      {
+        "id": 23,
+        "photo": "avatar81.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 24,
+        "photo": "avatar82.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      }
+    ]
+  },
+  {
+    "date": "",
+    "clients": [
+      {
+        "id": 25,
+        "photo": "avatar91.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      },
+      {
+        "id": 26,
+        "photo": "avatar92.svg",
+        "name": "John Doe",
+        "position": "Marketing Manager",
+        "city": "New York City",
+        "connections": [
+          "connection1.svg",
+          "connection2.svg",
+          "connection3.svg",
+          "connection4.svg"
+        ],
+        "photoDescription": "Peter Swage, John Eremic, and 281 other mutual connections",
+        "msgTitle": "Reply from Emery Wells"
+      }
+    ]
+  }
+]
