@@ -42,6 +42,7 @@ function App() {
     setActiveOrbit(index);
     setActiveClient(id);
     setState([...newArr]);
+    return newArr;
   }
 
   const hideCard = (index, id) => {
@@ -54,6 +55,7 @@ function App() {
     setActiveOrbit(null);
     setActiveClient(null);
     setState([...newArr]);
+    return newArr;
   }
 
   const handleMouseDown = _.throttle((e) => {

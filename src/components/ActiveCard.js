@@ -15,14 +15,14 @@ export default function ActiveCard({ index, client, state, activeClient }) {
 
     return (<div className='active_card' style={{ visibility: visibility === true ? "visible" : "hidden" }}>
         <div className='active_card_header'>
-            <img src={`/images/photos/${client.photo}`} width="100px" height="100px" />
+            <img src={`/images/photos/${client.photo}`} width="100px" height="100px" alt="avatar" />
             <div>
                 <p className="client_name">{client.name}</p>
                 <p className="client_position">{client.position}</p>
                 <p className="client_city">{client.city}</p>
                 <div style={{ height: "30px", display: "flex", alignItems: "center" }}>
                     <div className="client_photoContainer">
-                        {client.connections.map((el, i) => <img src={`/images/photos/${el}`} className="client_photo" style={{ left: `${i * 15}px` }} />)}
+                        {client.connections.map((el, i) => <img src={`/images/photos/${el}`} className="client_photo" style={{ left: `${i * 15}px` }} alt="connections photo" />)}
                     </div>
                     <p className="client_photoDescription">{client.photoDescription}</p>
                 </div>
