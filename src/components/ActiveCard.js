@@ -6,6 +6,7 @@ export default function ActiveCard({ index, client, state, activeClient }) {
     let ind;
     state[index].clients.map((el, i) => {
         if (el.id === client.id) ind = i;
+        return el;
     });
     const visibility = state[index].clients[ind].visibility;
 

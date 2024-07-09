@@ -90,6 +90,7 @@ function App() {
             {clients.map((client, i, a) =>
               <><div
                 className="orbit_avatar"
+                key={client.id}
                 style={{ backgroundImage: `url(/images/photos/${client.photo})`, ...getAvatarStyle(a.length, a.length - i, (startwidth - 245 * index) / 2, client.id), zIndex: activeClient === client.id ? 99999 : 1 }}
                 onMouseEnter={(e) => showCard(e, index, client.id)}
                 onMouseLeave={() => hideCard(index, client.id)}
