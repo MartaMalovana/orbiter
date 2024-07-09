@@ -36,13 +36,13 @@ function App() {
     let ind;
     newArr[index].clients.map((el, i) => {
       if (el.id === id) ind = i;
+      return el;
     });
     newArr[index].clients[ind].visibility = true;
 
     setActiveOrbit(index);
     setActiveClient(id);
     setState([...newArr]);
-    return newArr;
   }
 
   const hideCard = (index, id) => {
@@ -50,12 +50,12 @@ function App() {
     let ind;
     newArr[index].clients.map((el, i) => {
       if (el.id === id) ind = i;
+      return el;
     });
     newArr[index].clients[ind].visibility = false;
     setActiveOrbit(null);
     setActiveClient(null);
     setState([...newArr]);
-    return newArr;
   }
 
   const handleMouseDown = _.throttle((e) => {
