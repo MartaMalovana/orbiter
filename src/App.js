@@ -5,7 +5,7 @@ import data from "./data/orbits.json";
 import ActiveCard from './components/ActiveCard';
 
 function App() {
-  const [startwidth, setStartwidth] = useState(window.visualViewport.height * 2 - 50);
+  const [startwidth, setStartwidth] = useState(((window.visualViewport.width / 2) > window.visualViewport.height) ? (window.visualViewport.height * 2 - 50) : (window.visualViewport.width - 50));
   const [state, setState] = useState([...data]);
   const [activeOrbit, setActiveOrbit] = useState(null);
   const [activeClient, setActiveClient] = useState(null);
@@ -16,7 +16,7 @@ function App() {
     return ({
       width: startwidth - 245 * num,
       height: ((startwidth - 245 * num) / 2),
-      visibility: (startwidth - 245 * num) < 429 && "hidden"
+      opacity: (startwidth - 245 * num) < 429 && "0"
     });
   };
 
@@ -58,33 +58,23 @@ function App() {
     setState([...newArr]);
   }
 
-  const handleMouseDown = _.throttle((e) => {
-    if (e.target.className === "orbit_avatar") return;
-    containerRef.current.starty = e.pageY;
-  }, 100);
 
-  const handleMouseMove = _.throttle((e) => {
-    if (!containerRef.current.starty) return;
-    if ((containerRef.current.starty - e.pageY) < 0) {
-      setStartwidth(startwidth - 245);
-    } else {
+  const handleMouseWheel = _.throttle((e) => {
+    if (e.deltaY > 0) {
       setStartwidth(startwidth + 245);
-    }
-    containerRef.current.starty = null;
-  }, 1000);
-
-  const handleMouseUp = (e) => {
-    containerRef.current.starty = null;
-  }
+    };
+    if (e.deltaY < 0) {
+      setStartwidth(startwidth - 245);
+    };
+  }, 500);
 
   return (
     <div className="App">
       <div
         className="container"
         ref={containerRef}
-        onMouseDown={handleMouseDown}
-        onMouseMove={handleMouseMove}>
-        onMouseUp={handleMouseUp}
+        onWheel={handleMouseWheel}
+      >
         {data.map(({ date, clients }, index) =>
           <div className='orbit orbit_5' style={{ ...getStyle(index), zIndex: index === activeOrbit ? 999 : 1 }}>
             {clients.map((client, i, a) =>

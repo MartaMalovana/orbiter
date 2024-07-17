@@ -23,7 +23,7 @@ export default function ActiveCard({ index, client, state, activeClient }) {
                 <p className="client_city">{client.city}</p>
                 <div style={{ height: "30px", display: "flex", alignItems: "center" }}>
                     <div className="client_photoContainer">
-                        {client.connections.map((el, i) => <img src={`/images/photos/${el}`} className="client_photo" style={{ left: `${i * 15}px` }} alt="connections avatar" />)}
+                        {client.connections.map((el, i) => <img src={`/images/photos/${el}`} className="client_photo" style={{ left: `${i * 15}px` }} alt="connections avatar" key={i} />)}
                     </div>
                     <p className="client_photoDescription">{client.photoDescription}</p>
                 </div>
