@@ -85,7 +85,7 @@ function App() {
                 onMouseEnter={(e) => showCard(e, index, client.id)}
                 onMouseLeave={() => hideCard(index, client.id)}
               >
-                {<ActiveCard index={index} client={client} state={state} activeClient={activeClient} />}
+                {<ActiveCard index={index} client={client} state={state} activeClient={activeClient} style={getAvatarStyle(a.length, a.length - i, (startwidth - 245 * index) / 2, client.id)} />}
               </div>
               </>)}
           </div>
